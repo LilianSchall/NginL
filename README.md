@@ -71,12 +71,12 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-I: order to compile the project you will mainly need two specific utils:
+In order to compile the project you will mainly need two specific utils:
   ```sh
     GNUMake
   ```
   ```sh
-    gcc or clang
+    gcc
   ```  
 
 ### Installation

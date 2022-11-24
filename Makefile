@@ -5,7 +5,7 @@ SRC = $(wildcard src/*/*.c src/*/*/*.c) # $(wildcard src/*.c)
 MAIN = src/main.c
 MAIN_OBJ = $(MAIN:.c=.o)
 SRC_OBJ = $(SRC:.c=.o)
-EXE = mercle
+EXE = nginl
 
 all: $(EXE)
 

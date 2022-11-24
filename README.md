@@ -10,19 +10,19 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://github.com/LilianSchall/Mercle">
-    <img src="images/Mercle.png" alt="Logo" width="500" height="260">
+  <a href="https://github.com/LilianSchall/NginL">
+    <img src="images/NginL.png" alt="Logo" width="500" height="260">
   </a>
 
-  <h3 align="center">MERCLE</h3>
+  <h3 align="center">NginLite</h3>
   <p align="center">
-    This is the official repository of the MERCLE webserver
-    <a href="https://github.com/LilianSchall/Mercle"><strong>Explore the docs »</strong></a>
-    <a href="https://github.com/LilianSchall/Mercle/">View Demo</a>
+    This is the official repository of the NginL webserver
+    <a href="https://github.com/LilianSchall/NginL"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LilianSchall/NginL/">View Demo</a>
     ·
-    <a href="https://github.com/LilianSchall/Mercle/issues">Report Bug</a>
+    <a href="https://github.com/LilianSchall/NginL/issues">Report Bug</a>
     ·
-    <a href="https://github.com/LilianSchall/Mercle/issues">Request Feature</a>
+    <a href="https://github.com/LilianSchall/NginL/issues">Request Feature</a>
   </p>
 </div>
 
@@ -54,8 +54,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Mercle is an open-source project made in order to learn about network programming, specifically learn how to build a webserver that follows the HTTP/1.1 protocol and the associated RFC specifications. 
-Mercle is a non persistant webserver daemon that can host multiple webpages simultaneously.
+NginL is an open-source project made in order to learn about network programming, specifically learn how to build a webserver that follows the HTTP/1.1 protocol and the associated RFC specifications. 
+NginL is a non persistant webserver daemon that can host multiple webpages simultaneously.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
@@ -83,7 +83,7 @@ In order to compile the project you will mainly need two specific utils:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/LilianSchall/Mercle.git
+   git clone https://github.com/LilianSchall/NginL.git
    ```
 2. In the repo, compile the project.
    ```sh
@@ -93,9 +93,9 @@ In order to compile the project you will mainly need two specific utils:
 4. Run the web server !
   ```sh
     ## will run the server in foreground:
-    ./mercle server.conf
-    ## or you can interact with it in the following ways:
-    ./mercle [--dry-run] [start | restart | reload | stop] server.conf
+    ./nginl server.conf
+    ## or you can interact with it in background in the following ways:
+    ./nginl [--dry-run] [start | restart | reload | stop] server.conf
   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -104,17 +104,17 @@ In order to compile the project you will mainly need two specific utils:
 <!-- FEATURES -->
 ## Features
 
-Mercle has the following features implemented:
+NginL has the following features implemented:
 1. It is a multithreaded webserver which can support stress-tests up to 10000 simulteanous connections.
 2. It can host multiple virtual hosts. Each of those can point out to a separate webpage to serve.
-3. Mercle is currently not a persistant webserver, so after it interacted with a client, it closes the connexion with the remote.
+3. NginL is currently not a persistant webserver, so after it interacted with a client, it closes the connexion with the remote.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the GPL 3.0 License. See `LICENSE.txt` for more information.
+Distributed under the GPL 3.0 License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -125,17 +125,17 @@ Distributed under the GPL 3.0 License. See `LICENSE.txt` for more information.
 
 Lilian Schall - [@LilianSchall](https://twitter.com/LilianSchall)
 
-Project Link: [https://github.com/LilianSchall/Mercle](https://github.com/LilianSchall/Mercle)
+Project Link: [https://github.com/LilianSchall/NginL](https://github.com/LilianSchall/NginL)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/LilianSchall/Mercle.svg?style=for-the-badge
-[contributors-url]: https://github.com/LilianSchall/Mercle/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/LilianSchall/Mercle.svg?style=for-the-badge
-[forks-url]: https://github.com/LilianSchall/Mercle/network/members
-[stars-shield]: https://img.shields.io/github/stars/LilianSchall/Mercle.svg?style=for-the-badge
-[stars-url]: https://github.com/LilianSchall/Mercle/stargazers
-[issues-shield]: https://img.shields.io/github/issues/LilianSchall/Mercle.svg?style=for-the-badge
-[issues-url]: https://github.com/LilianSchall/Mercle/issues
-[license-shield]: https://img.shields.io/github/license/LilianSchall/Mercle.svg?style=for-the-badge
-[license-url]: https://github.com/LilianSchall/Mercle/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/LilianSchall/NginL.svg?style=for-the-badge
+[contributors-url]: https://github.com/LilianSchall/NginL/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LilianSchall/NginL.svg?style=for-the-badge
+[forks-url]: https://github.com/LilianSchall/NginL/network/members
+[stars-shield]: https://img.shields.io/github/stars/LilianSchall/NginL.svg?style=for-the-badge
+[stars-url]: https://github.com/LilianSchall/NginL/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LilianSchall/NginL.svg?style=for-the-badge
+[issues-url]: https://github.com/LilianSchall/NginL/issues
+[license-shield]: https://img.shields.io/github/license/LilianSchall/NginL.svg?style=for-the-badge
+[license-url]: https://github.com/LilianSchall/NginL/blob/main/LICENSE

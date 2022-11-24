@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/LilianSchall/NginL">
-    <img src="images/NginL.png" alt="Logo" width="500" height="260">
+    <img src="images/NginL.png" alt="Logo" width="700" height="260">
   </a>
 
   <h3 align="center">NginLite</h3>
